@@ -5,10 +5,10 @@ Welcome to the repository for our Nanoprocessor Design, a project undertaken as 
 ## Overview
 
 This project revolves around the design and development of a 4-bit processor capable of executing a set of 4 specific instructions. The main goal was to understand the intricacies of processor design, from arithmetic units to instruction decoding.
-<!--
-![Nanoprocessor Diagram](link_to_diagram_image.png)  
+
+![Nanoprocessor Diagram](Diagrams/NanoProcessor Diagram.jpg)  
 *Figure: High-level diagram of the nanoprocessor.*
--->
+
 ## Features
 
 - **4-bit Add/Subtract Unit**: Capable of adding and subtracting numbers represented using 2’s complement.
