@@ -6,8 +6,8 @@ Welcome to the repository for our Nanoprocessor Design, a project undertaken as 
 
 This project revolves around the design and development of a 4-bit processor capable of executing a set of 4 specific instructions. The main goal was to understand the intricacies of processor design, from arithmetic units to instruction decoding.
 
-![Nanoprocessor Diagram](Diagrams/NanoProcessor Diagram.jpg)  
-*Figure: High-level diagram of the nanoprocessor.*
+![Nanoprocessor Diagram](./Diagrams/NanoProcessor_Diagram.jpg)  
+<div align="center"><i>Figure: High-level diagram of the nanoprocessor</i></div>
 
 ## Features
 
@@ -31,6 +31,26 @@ This project revolves around the design and development of a 4-bit processor cap
 ## Testing
 
 The design was tested using a series of simulations, followed by deployment on a BASYS 3 board. The output of R7 was connected to LEDs and a 7-segment display for result visualization.
+
+## Timing Diagrams
+
+### Slow Clock
+![Slow Clock](Diagrams/TimingDiagrams/SlowClock.png)
+### Instruction Decoder
+![Instuction Decoder](Diagrams/TimingDiagrams/InstructionDecoder.png)
+### Register Bank
+![Register Bank](Diagrams/TimingDiagrams/RegisterBank.png)
+### Multiplexer 8:1
+![Multiplexer 8:1](Diagrams/TimingDiagrams/Multiplexer8_1.png)
+### Program Counter
+![Program Counter](Diagrams/TimingDiagrams/ProgramCounter.png)
+### 4-bit Adder/Subtracter
+![4-bit Adder/Subtracter](Diagrams/TimingDiagrams/Adder_Subtracter.png)
+### Program ROM
+![Program ROM](Diagrams/TimingDiagrams/ProgramROM.png)
+### NanoProcessor
+![NanoProcessor](Diagrams/TimingDiagrams/NanoProcessor.png)
+
 
 ## Acknowledgements
 
